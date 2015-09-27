@@ -1,0 +1,9 @@
+{
+    "name": "Pictorest",
+    "bigImage" : "images/portfolio/xxl-pictorest.png",
+    "description" : "Pictorest un site de gestion d'album photos en ligne, il permet aux utilisateurs de pouvoir créer leurs propres album photo en ligne et y mettre des photos. Ils peuvent aussi se abonnés aux albums d'autres utilisateurs afin de pouvoir visionner les photos de ces derniers. Le site à été réalisé selon le concept de web service, notamment l'Api Rest. Et cela enfin de permettre ainsi à d'autres développeurs de pouvoir récupérer des ressources sur l'api en spécifiant les informations de sécurité mise en place (Token, idientifiant etc)."
+    "technos" : ["Slim framework", "ORM Eloquent", "Jquery", "Sass", "Compass", "Susy framework", "MySQL"],
+    "url" : "http://www.pictorest.local/",
+    "urlGit": "https://bitbucket.org/dieng444/pictorest/src/",
+    "role": "Développement Back Office &amp; Front Office"
+}

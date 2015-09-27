@@ -1,0 +1,9 @@
+{
+    "name": "BDIS",
+    "bigImage" : "images/portfolio/big/bdis.jpg",
+    "description" : "Site de la base de données des initiatives solidaires et sociales de Basse-Normandie. J'ai participé au développement du projet en tant que développeur back-end en Symfony2.",
+    "technos" : ["Symfony2", "jQuery"],
+    "url" : "http://www.bedis.local/",
+    "urlGit": "https://github.com/guillaumedev/cartoBDIS",
+    "role": "Développement back-office"
+}

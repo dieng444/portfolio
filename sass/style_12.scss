@@ -1,0 +1,240 @@
+@include at-breakpoint($media-layout_12)
+{
+	
+	#b-body
+    {
+        @include span-columns(12 omega,12);
+        //background-color: #f3f5f8;
+        
+        #icones-container {
+            display:flex;
+            width:800px;
+            margin:auto;
+            padding-top:60px;
+            padding-bottom:60px;
+            
+            .b-img {
+                width:150px;
+                margin-bottom:0px;
+                
+            }
+        }
+        section#contact {
+            //margin-top:30px;
+            
+            .section-content {
+                display:flex;
+            }
+            #coordinates {
+                width:400px;
+                margin-right:10px;
+            }
+            form {
+                width:545px;
+                padding-bottom:50px;
+                padding-top:30px;
+                
+                input,textarea {
+                    margin-bottom:10px;
+                    padding:15px;
+                }
+                textarea {
+                    min-height:200px;
+                }
+                button {
+                    margin-top:10px;
+                }
+                span.success {
+                    font-size:0.9em;
+                }
+            }
+        }
+        section#details {
+            .h2-mobile {
+                display:none;
+            }
+            article {
+                .h2-desktop {
+                    display:block;
+                    font-size:1.2em;
+                    font-weight:normal;
+                    margin-bottom:10px;
+                    margin-top:0px;
+                    text-align: left;
+                }
+            }
+            .section-content {
+                #b-container {
+                    display:flex;
+                    #left {
+                        width:96.292%;
+                        margin-right:20px;
+                    }
+                    #right {
+                        width:34.292%;
+                    }
+                }
+                padding-bottom:80px;
+                
+            }
+            #bottom {
+                //@include span-columns(12 omega,12);
+            }
+            #thumbnails-container {
+                figure {
+                    //width:215px;
+                    margin-bottom:15px;
+                    @include hover-effect();
+                }
+            }
+            #opts-container {
+                display:block;
+                width:100%;
+                margin-top:5px;
+                a {
+                    width:100%;
+                    &:hover {
+                       background-color:#ccc;
+                    }
+                }
+            }
+        }
+        section#portfolio {
+            h2 {
+                font-size:2em;
+            }
+            #project-container {
+                figure {
+                    width:215px;
+                    @include hover-effect();
+                }
+            }
+        }
+        section#training,section#experiences {
+            article {
+                display:flex;
+                flex-wrap:wrap;
+            }
+            
+            .t-box {
+                //text-align:center;
+                
+                &:nth-child(odd) {
+                    margin-right:20px;
+                }
+                &:nth-child(1),&:nth-child(2) {
+                    margin-bottom:20px;
+                }
+                width:450px;
+                
+                .year {
+                    //width:110px;
+                    padding-top:8px;
+                    padding-bottom:8px;
+                    
+                }
+                .text-side {
+                    //text-align:center;
+                    min-height:250px;
+                    padding-top:30px;
+                    padding-bottom:30px;
+                    
+                    h3 {
+                        font-size:1.5em;
+                        margin-bottom:7px;
+                        
+                    }
+                }
+            }
+        }
+        section#experiences {
+            .t-box {
+                .year {
+                    //width:200px;
+                }
+                .text-side {
+                    min-height:323px;
+                    
+                    figure {
+                        width:70px;
+                    } 
+                }
+            }
+        }
+        section {
+            padding-bottom:100px;
+            .section-content {
+                max-width:63em;
+                min-width:63em;
+                margin:auto;
+            }
+        }
+        section#about {
+            article {
+                #desc {
+                    width:80%;
+                    margin:auto;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+	#header
+	{
+		 @include span-columns(12 omega,12);
+    	 #header-content {
+	        height:290px;
+	        margin-top:43px;
+	        #introduce {
+	           margin-top:60px;
+	        }
+    	 }
+        #banner
+        {
+            #content
+            {
+                max-width:63em;
+                min-width:63em;
+                margin:auto;
+                
+                #navigations
+                {   
+                    //width:450px;
+                    @include span-columns(9 omega,12);
+                    width:451px;
+                    padding-top:3px;
+                                 
+                    nav
+                    {                                   
+                        ul
+                        {                                               
+                            li
+                            {
+                                font-size:1em;
+                                height: 30px;
+                                margin-right:60px;
+                                //border-right:1px solid #227ba9;
+                                a {
+                                    padding-top:5px;
+                                    //text-shadow: 1px 1px 1px #000;
+                                }
+                                &:hover,&:focus
+                                {
+                                    border-bottom:3px solid #fff;;
+                                }           
+                            }
+                        }
+                    }
+                }
+            }
+         }
+    }
+    #block-body
+    {
+    	@include span-columns(12 omega,12);
+	}
+	footer
+	{
+		
+	}
+}

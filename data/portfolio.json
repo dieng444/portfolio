@@ -1,0 +1,52 @@
+[
+    {
+       "id": "slyboot",
+       "name": "Slyboot - Mini-framework PHP    ",
+       "mainLangage": "PHP5",
+       "smallImage": "images/portfolio/300x150/slyboot-pfl.png"
+    },
+    {
+       "id": "ecolix-link",
+       "name": "Ecolix Link",
+       "mainLangage": "PHP5",
+       "smallImage": "images/portfolio/300x150/ecolix-link.png"
+    },
+    {
+       "id": "free-mooc",
+       "name": "Free mooc",
+       "wording": "Site de cours en ligne" ,
+       "mainLangage": "Symfony2",
+       "smallImage": "images/portfolio/300x150/free-mooc.png"
+    },
+    {
+       "id": "game-of-thrones",
+       "name": "Personnages Game of Thrones ",
+       "mainLangage": "Slyboot1",
+       "smallImage": "images/portfolio/300x150/game-of-thrones.png"
+    },
+    {
+       "id": "stage-house",
+       "name": "Satge House",
+       "wording": "Site de recherche de stages" ,
+       "mainLangage": "PHP5",
+       "smallImage": "images/portfolio/300x150/stage-house.png"
+    },
+    {
+       "id": "bdis",
+       "name": "BDIS",
+       "mainLangage": "Symfony2",
+       "smallImage": "images/portfolio/300x150/bdis.jpg"
+    },
+    {
+       "id": "festival-tahitou",
+       "name": "Festival Tatihou",
+       "mainLangage": "Photoshop",
+       "smallImage": "images/portfolio/300x150/festival-tahitou.jpg"
+    },
+    {
+       "id": "archives-mdc",
+       "name": "Arhives MDC",
+       "mainLangage": "PHP5",
+       "smallImage": "images/portfolio/300x150/archives-mdc.jpg"
+    }
+]

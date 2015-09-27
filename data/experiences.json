@@ -1,0 +1,18 @@
+[
+    {
+        "date" : "Avril 2014 - Juin 2014 (3 mois)",
+        "wording" : "Stage en développement web",
+        "company" : "Chez l'entreprise Felix Informatique à Nancy",
+        "description" : "Mise en place d'un CMS personnalisé pour les clients de l'entreprise",
+        "logo" : "images/logo/logo-felix-informatique.jpg",
+        "link" : "https://www.felix.fr/"
+    },
+    {
+        "date" : "Mai 2013 - Août 2013 (4 mois)",
+        "wording" : "Stage en développement web",
+        "company" : "Chez l'entreprise Felix Informatique à Nancy",
+        "description" : "Mise en place d'une plateforme d'upload d'images, réalisation d'une application de gestion des archives de factures en ligne. Puis réalisation d'une application en ligne de génération de clés de licence pour les clients de l'entreprise.",
+        "logo" : "images/logo/logo-felix-informatique.jpg",
+        "link" : "https://www.felix.fr/"
+    }
+]

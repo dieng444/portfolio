@@ -1,0 +1,24 @@
+<section id="contact">
+    <h2>Me contacter</h2>
+    <div class="section-content">
+        <div id="coordinates">
+            <h3>Mes coordonnées</h3>
+            <p><i class="glyphicon glyphicon-map-marker"></i> Caen, France</p>
+            <p><i class="glyphicon glyphicon-phone"></i> 06 35 86 21 99</p>
+            <p><i class="glyphicon glyphicon-envelope"></i> diengmacky444@gmail.com</p>
+            <div id="map-area"></div>
+        </div>
+        <form name="contactForm" ng-submit="submit()" novalidate>
+            <span class="success" ng-show="isDataSendedSuccessly"> Votre message à été enregistré avec succès.</span>
+            <input type="text" name="name" ng-model="name" minlength="3" placeholder="Votre nom complet" required>
+            <span class="error" ng-show="isInvalid('name')">Le nom est obligatoire, 3 caractères minimum</span>
+            <input type="email" name="email" ng-model="email" placeholder="Votre mail" required>
+            <span class="error" ng-show="isInvalid('email')">Vous devez préciser votre email avec un format valide</span>
+            <input type="text" name="subject" ng-model="subject" placeholder="Sujet de votre message">
+            <textarea placeholder="Votre message" name="message" minlength="25" ng-model="message" required></textarea>
+            <span class="error" ng-show="isInvalid('message')">Vous devez laisser un message, 25 caractères minimum</span>
+            <button type="submit" ng-disabled="contactForm.$invalid">Envoyer</button>
+        </form>
+    </div>
+</section>
+    

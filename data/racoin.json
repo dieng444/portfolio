@@ -1,0 +1,9 @@
+{
+    "name": "Racoin",
+    "bigImage" : "images/portfolio/xxl-racoin.png",
+    "description" : "Racoin est un site de petites annonces en ligne que j'ai réalisé dans le cadre d'un projet de classe. Le site permet aux utilisateurs d'un côté de pouvoir se créer un compte et publier des annonces par la suite, puis de l'autre côté de pouvoir chercher et trouver des annonces publiées par d'autres utilisateurs."
+    "technos" : ["Slim framework", "ORM Illuminate", "Jquery", "Sass", "Compass", "Susy framework", "MySQL"],
+    "url" : "http://www.racoin.local/",
+    "urlGit": "https://bitbucket.org/dieng444/racoin/src/",
+    "role": "Développement Back Office &amp; Front Office"
+}

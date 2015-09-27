@@ -1,0 +1,9 @@
+{
+    "name": "Free mooc",
+    "bigImage" : "images/portfolio/big/big-free-mooc.png",
+    "description" : "Site de cours en ligne, réalisé avec un collègue de classe (bilingue).",
+    "technos" : ["Symfony2", "jQuery", "Sass", "Compass", "Susyframework", "MySQL"],
+    "url" : "http://freemooc.mackydieng.fr/",
+    "urlGit": "https://bitbucket.org/dieng444/freemooc/src",
+    "role": "Développement back-office & front-office"
+}

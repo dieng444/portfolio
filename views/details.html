@@ -1,0 +1,35 @@
+<section id="details">
+    <article class="section-content">
+        <h2 class="h2-mobile">{{project.name}}</h2>
+        <div id="b-container">
+            <div id="left">
+                <figure>
+                   <img alt="{{project.name}}" ng-src="{{project.bigImage}}">
+                </figure>
+            </div>
+            <div id="right">
+                <h2 class="h2-desktop">{{project.name}}</h2>
+                <p>{{project.description}}</p>
+                <p><b>Technologies utilisées : </b>
+                    <span ng-repeat="techno in project.technos">{{techno}}, </span>
+                </p>
+                <p>
+                    <b>Rôle</b> : <span>{{project.role}}</span>
+                </p>
+                <div id="opts-container">
+                    <b>Consulter le projet : </b><a href="{{project.url}}" target="_blank"> {{project.url}}</a><br><br>
+                    <b>Dépôt Git : </b><a href="{{project.urlGit}}" target="_blank"> {{project.urlGit}}</a>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <h3>Autres projets</h3>
+            <div id="thumbnails-container">
+                <figure ng-repeat="project in projects">
+                    <a href="details/{{project.id}}"><img alt="{{project.name}}" ng-src="{{project.smallImage}}"></a>
+                </figure>
+            </div>
+        </div>
+    </article>
+</section>
+    

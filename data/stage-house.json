@@ -1,0 +1,9 @@
+{
+    "name": "Stage House",
+    "bigImage" : "images/portfolio/big/big-stage-house.png",
+    "description" : "Site de recherche de stages en ligne, réalisé dans le cadre d'un projet de classe.",
+    "technos" : ["PHP5", "jQuery", "Sass", "Compass", "Susy framework", "MySQL"],
+    "url" : "http://stagehouse.mackydieng.fr/",
+    "urlGit": "https://github.com/dieng444/stage-house",
+    "role": "Développement back-office & front-office"
+}

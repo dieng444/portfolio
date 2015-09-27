@@ -1,0 +1,131 @@
+<div id="icones-container">
+    <div class="b-img">
+        <figure>
+            <a ng-click="scrollTo('about')"><img alt="perso" src="images/icones-cv/personnalite-homme.png"></a>
+        </figure>
+        <p>À propos de moi</p>
+    </div>
+    <div class="b-img">
+        <figure>
+            <a ng-click="scrollTo('training')"><img alt="formation" src="images/icones-cv/formation.png"></a>
+        </figure>
+        <p>Formations</p>
+    </div>
+    <div class="b-img">
+        <figure>
+            <a ng-click="scrollTo('knowledge')"><img alt="comp" src="images/icones-cv/competences.png"></a>
+        </figure>
+        <p>Compétences</p>
+    </div>
+    <div class="b-img">
+        <figure>
+            <a ng-click="scrollTo('experiences')"><img alt="exp" src="images/icones-cv/exp-pro-student.png"></a>
+        </figure>
+        <p>Expériences Pro</p>
+    </div>
+</div>
+<section id="about">
+    <div class="section-content" id="about-section-content">
+        <h2>À propos de moi</h2>
+        <article>
+            <figure>
+                <img alt="Macky Dieng" src="images/profil.png">
+            </figure>
+            <div id="desc">
+                <p>
+                    Je m'appelle Macky Dieng, j'ai 25 ans. Je suis diplômé d'un DUT
+                    d'informatique à l'IUT Charlemagne de Nancy et je possède une licence
+                    professionnelle en développement web délivré par la même école. Actuellement
+                    je finalise un master d'informatique en ingénierie de l'Internet
+                    (Master-DNR2i) à l'UFR de Sciences de l'université de Caen.
+               </p>
+               <p> 
+                    J'ai commencé le développement web par la création d'un simple 
+                    site perso en HTML il y a 5 années de cela ; chose qui est devenue tout de 
+                    suite une véritable passion pour moi. Depuis lors, je n'ai cessé de 
+                    chercher à découvrir de nouvelles technos dans le domaine et ainsi d'approfondir mes connaissances. 
+                    Je me sens à l'aise aussi bien en 
+                    développement Front-End qu'en développement Back-End, avec cependant un gros penchant 
+                    pour le Back-End qui me passionne le plus.
+               </p>
+               <p>
+                    J'aime expérimenter, découvrir 
+                    et apprendre au fur et à mesure de mes projets pros et persos. Je m’intéresse 
+                    également aux nouvelles technos : Node.js, AngularJS, Cordova, etc. 
+                    J'aime le challenge, l'esprit d'entreprendre et le concept de gestion de projet.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+<section id="training">
+    <div class="section-content">
+        <h2>Diplômes</h2>
+        <article>
+            <div class="t-box" ng-repeat="training in trainings">
+                <div class="year"><span>{{training.date}}</span></div>
+                <div class="text-side">
+                    <h3>{{training.degree}}</h3>
+                    <h4>{{training.speciality}}</h4><br>
+                    <h4>{{training.school}}</h4>
+                    <figure>
+                        <a href="http://www.unicaen.fr/" target="_blank">
+                            <img alt="{{training.degree}}" ng-src="{{training.logo}}">
+                        </a>
+                    </figure> 
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+<section id="knowledge">
+    <div class="section-content">
+        <h2>Compétences</h2>
+        <article>
+            <div><span>Symfony2</span></div>
+            <div><span>Doctrine3</span></div>
+            <div><span>AngularJS</span></div>
+            <div style="padding-left:35px;padding-top: 50px;"><span>PHP5</span></div>
+            <div style="padding-left:30px;padding-top: 40px;line-height:1.2;"><span>Design <br> Patern</span></div>
+            <div style="padding-left:29px;padding-top: 48px;"><span>HTML5</span></div>
+            <div style="padding-left:35px;padding-top: 48px;"><span>CSS3</span></div>
+            <div style="padding-left:19px;"><span>JavaScript</span></div>
+            <div style="padding-left:32px;"><span>Jquery</span></div>
+            <div style="padding-left:36px;"><span>AJAX</span></div>
+            <div style="padding-left:31px;"><span>MySQL</span></div>
+            <div style="padding-left:34px;"><span>SASS</span></div>
+            <div style="padding-left:22px;"><span>Compass</span></div>
+            <div style="padding-left:15px;line-height:1.2;padding-top:40px;"><span>Responsive <br> Design</span></div>
+            <div><span>Bootstrap</span></div>
+            <div style="line-height:1.2;padding-top:40px;"><span>Extension </span><br>Twig</div>
+            <div style="line-height:1.2;padding-top:40px;padding-left:15px;"><span>Susy <br> Framework</span></div>
+            <div style="padding-left:37px;"><span>UML</span></div>
+            <div style="padding-left:32px;"><span>Merise</span></div>
+            <div style="padding-left:37px;"><span>Java</span></div>
+            <div style="padding-left:36px;"><span>Linux</span></div>
+            <div style="padding-left:37px;"><span>GIT</span></div>
+            <div style="padding-left:37px;"><span>SQL Server</span></div>
+            <div style="padding-left:37px;"><span>Oracle</span></div>
+        </article>
+    </div>
+</section>
+<section id="experiences">
+    <div class="section-content">
+        <h2>Expériences professionnelles</h2>
+        <article>
+            <div class="t-box" ng-repeat="experience in experiences">
+                <div class="year"><span>{{experience.date}}</span></div>
+                <div class="text-side">
+                    <h3>{{experience.wording}}</h3>
+                    <h4 style="font-weight:bold;">{{experience.company}}</h4><br>
+                    <p>{{experience.description}}</p><br><br><br>
+                    <figure>
+                        <a ng-href="{{experience.link}}" target="_blank">
+                            <img alt="{{experience.company}}" ng-src="{{experience.logo}}">
+                        </a>
+                    </figure>  
+                </div>
+            </div>
+        </article>
+    </div>
+</section>

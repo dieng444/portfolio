@@ -1,0 +1,9 @@
+{
+    "name": "Archives MDC",
+    "bigImage" : "images/portfolio/big/big-archives-mdc.jpg",
+    "description" : " Réalisation d'une application web de gestion des archives de factures en ligne, pour les clients de l'entreprise Felix informatique à Nancy.",
+    "technos" : ["PHP", "JavaScript", "PrototypeJs", "MS-SQL Server"],
+    "url" : "_non",
+    "urlGit": "_non",
+    "role": "Développement front-office & back-office"
+}

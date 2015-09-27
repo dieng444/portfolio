@@ -1,0 +1,17 @@
+<section id="portfolio">
+    <div class="section-content">
+        <h2>Portfolio</h2>
+        <h3> Mes réalisations </h3>
+        <div id="project-container">
+            <figure ng-repeat="project in projects">
+                <a href="details/{{project.id}}"><img alt="{{project.name}}" ng-src="{{project.smallImage}}"></a>
+                <figcaption>
+                    <span>{{project.name}}</span><br>
+                    <!-- <span>{{project.wording}}</span><br> -->
+                    <i>{{project.mainLangage}}</i>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+    

@@ -1,0 +1,9 @@
+{
+    "name": "Personnages Game of thrones",
+    "bigImage" : "images/portfolio/big/big-game-of-thrones.png",
+    "description" : "Site des personnages préférés de Game of Thrones, réalisé avec le mini-framework Slyboot que j'ai développé moi-même.",
+    "technos" : ["Mini-framework Slyboot", "jQuery", "Sass", "Compass", "Susy framework", "MySQL"],
+    "url" : "https://21410938.users.info.unicaen.fr/Slyboot-1.1.0/",
+    "urlGit": "https://github.com/dieng444/game-of-thrones-fan",
+    "role": "Développement back-office & front-office"
+}

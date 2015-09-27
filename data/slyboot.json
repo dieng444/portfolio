@@ -1,0 +1,9 @@
+{
+    "name": "Slyboot-v1.0.0",
+    "bigImage" : "images/portfolio/big/slyboot-pfl.png",
+    "description" : "Développement d'un mini-framework PHP. Framework réalisé avec de la POO avancée, notamment avec les concepts de design patterns.",
+    "technos" : ["PHP5"],
+    "url" : "http://slyboot1.mackydieng.fr/",
+    "urlGit": "https://github.com/dieng444/slyboot-1.0.0",
+    "role": "Développeur"
+}
