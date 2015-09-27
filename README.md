@@ -1,2 +1,3 @@
 # Macky dieng
-My personal site.
+My personal site
+http://mackydieng.fr
